@@ -68,8 +68,7 @@
         if (typeof target !== "object" && !isFunction(target)) {
             target = {};
         }
-
-        // Extend jQuery itself if only one argument is passed
+        
         if (i === length) {
             target = this;
             i--;
